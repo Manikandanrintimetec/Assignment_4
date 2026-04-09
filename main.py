@@ -50,7 +50,7 @@ def main():
         text = read_file(file)
 
         if not text:
-            print("❌ File not found or empty")
+            print(" File not found or empty")
             continue
 
         result = analyzer.analyze(text)
